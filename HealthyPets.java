@@ -39,6 +39,8 @@ public class HealthyPets {
                     found = true;
                 }
             }
+            
+            
             if (found == false) {
                 JOptionPane.showMessageDialog(null, "Gäst ej funnen.");
             }
