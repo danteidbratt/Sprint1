@@ -5,9 +5,7 @@ import javax.swing.JOptionPane;
 public class HealthyPets {
 
     public static void main(String[] args) {
-        // Creates an object of this class.
         HealthyPets go = new HealthyPets();
-        // Calling method timeToEat.
         go.timeToEat();
     }
 
@@ -24,6 +22,7 @@ public class HealthyPets {
 
         while (true) {
             boolean found = false;
+            // Ask user which animal to feed.
             String s = JOptionPane.showInputDialog("Vilket djur ska få mat?");
             if (s == null || s.equals("")) {
                 break;

@@ -10,7 +10,6 @@ public class Hund extends Djur{
     }
     // All methods in this Class P
     
-    
     /**
      * Returns the proper amount of food (in grams).
      * @return 

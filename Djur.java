@@ -38,7 +38,6 @@ abstract public class Djur implements Eat{
     public String getName(){
         return name;
     }
-    
     // This is an example of dynamic binding.
     @Override
     public void printMe(){}
