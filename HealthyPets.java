@@ -27,9 +27,8 @@ public class HealthyPets {
             if (s == null || s.equals("")) {
                 break;
             }
-            s = s.trim();
-            s = s.toLowerCase();
-
+            s = s.trim().toLowerCase();
+            
             for (Eat x : guests) {
                 // Checks if chosen name matches any guests name.
                 if (s.equals(x.getName().toLowerCase())) {
