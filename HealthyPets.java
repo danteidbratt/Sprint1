@@ -30,7 +30,7 @@ public class HealthyPets {
             s = s.trim().toLowerCase();
             
             for (Eat x : guests) {
-                // Checks if chosen name matches any guests name  .
+                // Checks if chosen name matches any guests name.
                 if (s.equals(x.getName().toLowerCase())) {
                     // Prints dietary information of chosen guest.
                     x.printMe();
