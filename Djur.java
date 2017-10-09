@@ -29,8 +29,6 @@ abstract public class Djur implements Eat{
         return weight;
     }
     
-    abstract protected String getFood();
-    
     abstract protected int getDosage();
     
     // Methods override interface methods.
